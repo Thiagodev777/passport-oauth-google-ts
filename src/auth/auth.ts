@@ -16,7 +16,6 @@ passport.use(
       profile: any,
       done: any
     ) {
-      console.log(profile);
       return done(null, profile);
     }
   )
